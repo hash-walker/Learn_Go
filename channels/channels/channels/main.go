@@ -24,7 +24,7 @@ func waitForDBs(numDBs int, dbChan chan struct{}) {
 	for i := 0; i<numDBs; i++{
 		<- dbChan
 	}
-}z
+}
 
 // don't touch below this line
 
